@@ -1,11 +1,11 @@
 {
-  "title": "Python Katas — Oz",
+  "title": "Python Katas — Oz Veruach",
   "worlds": [
     {
       "id": "w1",
       "name": "Hello Island",
       "theme": "beach",
-      "katas": ["hello_world", "backoff_retry", "circuit_breaker", "curcular_buffer", "round_robin_load_balancer"]
+      "katas": ["hello_world", "word_count", "list_diff", "is_unique_str", "longest_common_prefix"]
     }
   ]
 }
