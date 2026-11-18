@@ -1,15 +1,5 @@
 {
- "students": {
-  "exit0-io": {
-   "checkpoint": 1,
-   "passed": [
-    "hello_world"
-   ],
-   "pr": 2,
-   "updated_at": "2026-11-18T12:39:01+00:00",
-   "world": 0
-  }
- },
+ "students": {},
  "tested": [
   "hello_world",
   "is_unique_str",
@@ -17,5 +7,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-18T12:39:01+00:00"
+ "updated_at": "2026-11-18T12:55:36+00:00"
 }
