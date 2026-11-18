@@ -15,7 +15,20 @@ def list_diff(values):
     Returns:
         a list of the same length. Empty input returns an empty list.
     """
-    raise NotImplementedError("list_diff not implemented.")
+    if not values:
+        return []
+
+    final_list = []
+
+    final_list.insert(0,None)
+    curr = 1
+
+    while(curr < len(values)):
+        final_list.insert(curr,(values[curr] - values[curr - 1]) )
+        curr = curr + 1
+
+
+    return final_list
 
 
 if __name__ == '__main__':
