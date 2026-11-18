@@ -10,14 +10,15 @@
    "world": 0
   },
   "ydray1077": {
-   "checkpoint": 3,
+   "checkpoint": 4,
    "passed": [
     "hello_world",
     "list_diff",
-    "is_unique_str"
+    "is_unique_str",
+    "longest_common_prefix"
    ],
    "pr": 4,
-   "updated_at": "2026-11-18T18:31:35+00:00",
+   "updated_at": "2026-11-18T19:08:24+00:00",
    "world": 0
   }
  },
@@ -28,5 +29,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-18T18:31:35+00:00"
+ "updated_at": "2026-11-18T19:08:24+00:00"
 }
