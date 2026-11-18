@@ -1,7 +1,17 @@
 {
- "students": {},
+ "students": {
+  "exit0-io": {
+   "checkpoint": 1,
+   "passed": [
+    "hello_world"
+   ],
+   "pr": 2,
+   "updated_at": "2026-11-18T12:05:21+00:00",
+   "world": 0
+  }
+ },
  "tested": [
   "hello_world"
  ],
- "updated_at": "2026-11-18T12:03:34+00:00"
+ "updated_at": "2026-11-18T12:05:21+00:00"
 }
