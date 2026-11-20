@@ -1,5 +1,15 @@
 {
  "students": {
+  "NoamKB": {
+   "checkpoint": 2,
+   "passed": [
+    "hello_world",
+    "is_unique_str"
+   ],
+   "pr": 6,
+   "updated_at": "2026-11-20T23:29:07+00:00",
+   "world": 0
+  },
   "asafpo4": {
    "checkpoint": 0,
    "passed": [
@@ -43,5 +53,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-20T15:07:22+00:00"
+ "updated_at": "2026-11-20T23:29:07+00:00"
 }
