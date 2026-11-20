@@ -1,5 +1,14 @@
 {
  "students": {
+  "asafpo4": {
+   "checkpoint": 1,
+   "passed": [
+    "hello_world"
+   ],
+   "pr": 5,
+   "updated_at": "2026-11-20T14:38:36+00:00",
+   "world": 0
+  },
   "exit-zero-academy": {
    "checkpoint": 1,
    "passed": [
@@ -30,5 +39,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-20T03:21:30+00:00"
+ "updated_at": "2026-11-20T14:38:36+00:00"
 }
