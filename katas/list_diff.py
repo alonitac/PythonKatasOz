@@ -15,7 +15,16 @@ def list_diff(values):
     Returns:
         a list of the same length. Empty input returns an empty list.
     """
-    raise NotImplementedError("list_diff not implemented.")
+    res=[]
+    if len(values)==0:
+        return res
+    res.append(None)
+    for i in range (1,len(values)):
+        res.append(values[i]-values[i-1])
+    return res
+
+
+
 
 
 if __name__ == '__main__':

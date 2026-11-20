@@ -5,8 +5,7 @@ def hello_world():
     """
     Returns the string "hello world".
     """
-    return NotImplementedError("hello_world not implemented.")
-
+    return "hello world"
 
 
 if __name__ == '__main__':
