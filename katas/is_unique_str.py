@@ -14,7 +14,13 @@ def is_unique_str(text):
     Returns:
         True if every character is unique, otherwise False
     """
-    raise NotImplementedError("is_unique_str not implemented.")
+   
+    letters_dict = {}
+    for letter in text:
+        if letter in letters_dict:
+            return False
+        letters_dict[letter] = True
+    return True
 
 
 if __name__ == '__main__':
