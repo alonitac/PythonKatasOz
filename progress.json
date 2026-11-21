@@ -1,12 +1,13 @@
 {
  "students": {
   "Alon-ds": {
-   "checkpoint": 1,
+   "checkpoint": 2,
    "passed": [
-    "hello_world"
+    "hello_world",
+    "is_unique_str"
    ],
    "pr": 7,
-   "updated_at": "2026-11-21T14:40:33+00:00",
+   "updated_at": "2026-11-21T14:43:32+00:00",
    "world": 0
   },
   "NoamKB": {
@@ -64,5 +65,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-21T14:40:33+00:00"
+ "updated_at": "2026-11-21T14:43:32+00:00"
 }
