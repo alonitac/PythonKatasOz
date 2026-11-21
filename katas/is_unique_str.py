@@ -14,7 +14,12 @@ def is_unique_str(text):
     Returns:
         True if every character is unique, otherwise False
     """
-    raise NotImplementedError("is_unique_str not implemented.")
+    seen = set()
+    for char in text:
+        if char in seen:
+            return False
+        seen.add(char)
+    return True
 
 
 if __name__ == '__main__':
