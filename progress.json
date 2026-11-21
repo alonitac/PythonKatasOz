@@ -1,13 +1,14 @@
 {
  "students": {
   "NoamKB": {
-   "checkpoint": 2,
+   "checkpoint": 3,
    "passed": [
     "hello_world",
+    "list_diff",
     "is_unique_str"
    ],
    "pr": 6,
-   "updated_at": "2026-11-21T03:20:38+00:00",
+   "updated_at": "2026-11-21T11:44:23+00:00",
    "world": 0
   },
   "asafpo4": {
@@ -53,5 +54,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-21T03:20:38+00:00"
+ "updated_at": "2026-11-21T11:44:23+00:00"
 }
