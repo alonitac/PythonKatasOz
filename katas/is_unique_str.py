@@ -2,20 +2,10 @@
 
 
 def is_unique_str(text):
-    """
-    Returns True when no character appears more than once.
-
-    Comparison is case-sensitive, so "A" and "a" are different characters.
-    An empty string is unique.
-
-    Args:
-        text: the string to check
-
-    Returns:
-        True if every character is unique, otherwise False
-    """
-    raise NotImplementedError("is_unique_str not implemented.")
-
+    for i in text:
+        if text.count(i) > 1:
+            return False
+    return True
 
 if __name__ == '__main__':
     print(is_unique_str("abc"))  # True

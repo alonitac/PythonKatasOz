@@ -2,20 +2,13 @@
 
 
 def list_diff(values):
-    """
-    Builds a new list where each item is that value minus the one before it.
-    The first item has no predecessor, so it is None.
-
-    Example:
-        list_diff([10, 7, 12]) -> [None, -3, 5]
-
-    Args:
-        values: a list of numbers
-
-    Returns:
-        a list of the same length. Empty input returns an empty list.
-    """
-    raise NotImplementedError("list_diff not implemented.")
+    if values == []:
+        return []
+    temp = values.copy()
+    for i in range(values.index(values[-1])+1):
+        values[i] -= temp[i-1]
+    values[0] = None
+    return values
 
 
 if __name__ == '__main__':
