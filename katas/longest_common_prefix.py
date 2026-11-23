@@ -18,8 +18,12 @@ def longest_common_prefix(left, right):
     Example:
         longest_common_prefix("interspecies", "interstellar") -> "inters"
     """
-    raise NotImplementedError("longest_common_prefix not implemented.")
 
+    index=0
+    while index< min(len(left),len(right)) and left[index] == right[index] :
+        index += 1
+
+    return left[:index]
 
 if __name__ == '__main__':
     print(longest_common_prefix("interspecies", "interstellar"))  # inters
