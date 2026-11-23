@@ -3,18 +3,26 @@
 
 def word_count(sentence):
     """
-    Counts how many words are in a sentence.
+    Counts words by looking for the beginning of each word.
 
-    Words are separated by whitespace. Repeated spaces, tabs, and newlines
-    count as a single break. 
-
-    Args:
-        sentence: the text to count
-
-    Returns:
-        the number of words. An empty or whitespace-only sentence returns 0.
+    A word begins with a letter at the start of the sentence,
+    or with a letter that comes after a space, tab, or newline.
     """
-    raise NotImplementedError("word_count not implemented.")
+    count = 0
+
+    for i in range(len(sentence)):
+        is_letter = (
+            "a" <= sentence[i] <= "z"
+            or "A" <= sentence[i] <= "Z"
+        )
+
+        if is_letter:
+            if i == 0:
+                count += 1
+            elif sentence[i - 1] == " " or sentence[i - 1] == "\t" or sentence[i - 1] == "\n":
+                count += 1
+
+    return count
 
 
 if __name__ == '__main__':

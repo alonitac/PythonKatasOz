@@ -4,21 +4,14 @@
 def longest_common_prefix(left, right):
     """
     Returns the longest string that is a prefix of both inputs.
-
-    Comparison is case-sensitive. When the strings share nothing, or either
-    argument is empty, the result is an empty string.
-
-    Args:
-        left: first string
-        right: second string
-
-    Returns:
-        the shared prefix
-
-    Example:
-        longest_common_prefix("interspecies", "interstellar") -> "inters"
     """
-    raise NotImplementedError("longest_common_prefix not implemented.")
+    max_length = min(len(left), len(right))
+
+    for i in range(max_length):
+        if left[i] != right[i]:
+            return left[:i]
+
+    return left[:max_length]
 
 
 if __name__ == '__main__':
