@@ -48,12 +48,13 @@
    "world": 0
   },
   "PeselevRoman": {
-   "checkpoint": 1,
+   "checkpoint": 2,
    "passed": [
-    "hello_world"
+    "hello_world",
+    "word_count"
    ],
    "pr": 10,
-   "updated_at": "2026-11-23T11:35:38+00:00",
+   "updated_at": "2026-11-23T11:57:15+00:00",
    "world": 0
   },
   "asafpo4": {
@@ -99,5 +100,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-23T11:35:38+00:00"
+ "updated_at": "2026-11-23T11:57:15+00:00"
 }
