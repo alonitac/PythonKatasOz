@@ -60,6 +60,15 @@
    "updated_at": "2026-11-23T14:43:21+00:00",
    "world": 1
   },
+  "RoiAzrai": {
+   "checkpoint": 1,
+   "passed": [
+    "hello_world"
+   ],
+   "pr": 11,
+   "updated_at": "2026-11-23T17:21:51+00:00",
+   "world": 0
+  },
   "asafpo4": {
    "checkpoint": 0,
    "passed": [
@@ -103,5 +112,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-23T14:43:21+00:00"
+ "updated_at": "2026-11-23T17:21:51+00:00"
 }
