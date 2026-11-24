@@ -14,7 +14,7 @@ def word_count(sentence):
     Returns:
         the number of words. An empty or whitespace-only sentence returns 0.
     """
-    raise NotImplementedError("word_count not implemented.")
+    return len(sentence.split())
 
 
 if __name__ == '__main__':
