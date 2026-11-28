@@ -14,12 +14,13 @@
    "world": 1
   },
   "MaorRCohen": {
-   "checkpoint": 1,
+   "checkpoint": 2,
    "passed": [
-    "hello_world"
+    "hello_world",
+    "is_unique_str"
    ],
    "pr": 9,
-   "updated_at": "2026-11-28T03:21:10+00:00",
+   "updated_at": "2026-11-28T10:47:33+00:00",
    "world": 0
   },
   "NereyaHillel": {
@@ -134,5 +135,5 @@
   "longest_common_prefix",
   "word_count"
  ],
- "updated_at": "2026-11-28T03:21:10+00:00"
+ "updated_at": "2026-11-28T10:47:33+00:00"
 }
